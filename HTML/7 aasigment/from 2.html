@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body bgcolor="burlywood">
+    <center>
+      <h1><strong> KM custom HTML form Example using AppleScript</strong></h1>
+      <h3>(by JMichaelTX)</h3>
+    </center>
+    <table style="text-align: left" bgcolor="burlywood" border="1px">
+      <form>
+        <tr>
+          <th>name</th>
+          <td><input type="text" name="name" value="john AppleScript" /></td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td>
+            <input type="email" name="email" value="johnny@applescript.com" />
+          </td>
+        </tr>
+        <tr>
+          <th>password</th>
+          <td><input type="password" name="password" value="1234" /></td>
+        </tr>
+        <tr>
+          <td>
+            <b>approval required </b><br />click on the button or text to
+            <br />check / uncheck
+          </td>
+          <td><input type="checkbox" name="check" />do you approvbe?</td>
+        </tr>
+        <tr>
+          <td>
+            <b> pick yuor favourite </b><br />
+            click on the button or text to <br />
+            select
+          </td>
+          <td>
+            <input type="radio" name="favourite" />choice A<br />
+            <input type="radio" name="favourite" checked />choice B<br />
+            <input type="radio" name="favourite" />choice C
+          </td>
+        </tr>
+        <tr>
+          <th>popup menu</th>
+          <td>
+            <select>
+              <option type="dropdown" name="menu" value="texas--TX">
+                texas--TX
+              </option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b> list </b> <br />
+            setup options
+            <ul>
+              <li>number of rows to display</li>
+              <li>allow multi-select</li>
+            </ul>
+          </td>
+          <td>
+            <select multiple>
+              <option type="dropdown" name="list">California-- CA</option>
+              <option type="dropdown" name="list">Colorado-- CO</option>
+              <option type="dropdown" name="list">Connecticut-- CN</option>
+              <option type="dropdown" name="list">Dalifornia -- DA</option>
+              <option type="dropdown" name="list">Dolorado-- DO</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>field Ignored by KM</th>
+          <td><input type="text" value="10,384" /></td>
+        </tr>
+        <tr>
+          <th>Text Area</th>
+          <td>
+            <textarea name="comment" cols="60" rows="3">
+now is the time for all good men to come to the aid of their country</textarea
+            >
+          </td>
+        </tr>
+      </form>
+    </table>
+    <button>submit</button>
+    <button>cancel</button>
+    <button>save</button>
+    <h1><a href="../../index.html">GO BACK</a></h1>
+  </body>
+</html>
